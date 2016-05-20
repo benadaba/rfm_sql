@@ -12,13 +12,6 @@ ORDER BY dReceievedDate DESC
 LIMIT 10;
 
 
-/*
-RECENCY
-*/
-SELECT   cFullName, Country, dReceievedDate AS OrderDate
-FROM orders
-ORDER BY dReceievedDate DESC
-LIMIT 10;
 
 /*
 FREQUENCY
